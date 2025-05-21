@@ -127,9 +127,9 @@ function calculateData() {
 
   // Update DOM
   document.getElementsByClassName('info__numbers--principal')[0].innerHTML = `$${monthlyPrincipalInterest.toLocaleString(undefined, {minimumFractionDigits: 2})}`;
-  document.getElementsByClassName('info__numbers--property_taxes')[0].innerHTML = `$${monthlyPropertyTax.toFixed(2)}%`;
+  document.getElementsByClassName('info__numbers--property_taxes')[0].innerHTML = `$${monthlyPropertyTax.toFixed(2)}`;
   document.getElementsByClassName('info__numbers--home_insurance')[0].innerHTML = `$${monthlyHomeInsurance.toFixed(2)}`;
-  document.getElementsByClassName('info__numbers--hoa')[0].innerHTML = `$${monthlyHOA.toFixed(2)}%`;
+  document.getElementsByClassName('info__numbers--hoa')[0].innerHTML = `$${monthlyHOA.toFixed(2)}`;
   document.getElementsByClassName('info__numbers--total')[0].innerHTML = `$${monthlyTotal.toLocaleString(undefined, {minimumFractionDigits: 2 , maximumFractionDigits: 2})}`;
 
   // Update chart
